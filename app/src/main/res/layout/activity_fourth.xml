@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="314dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/web"
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Web Development"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_margin="35dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"
+        android:text="Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network) Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development."
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/buttonId2"
+        android:layout_width="300dp"
+        android:backgroundTint="@color/violet"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Know More" />
+
+</LinearLayout>
